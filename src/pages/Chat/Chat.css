@@ -1,0 +1,29 @@
+.chat{
+    height: 100vh;
+    display: flex;
+}
+.chat-menu{
+    flex :2.5;
+}
+.chat-menu-input{
+    width: 80%;
+    padding: 15px 15px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.chat-main{
+    flex: 5.5;
+}
+
+.chat-user-online{
+    flex: 2.5;
+}
+
+
+.chat-menu-wrapper, .chat-main-wrapper, .chat-online-wrapper{
+    padding: 10px;
+    height: 100%;
+}
+
+

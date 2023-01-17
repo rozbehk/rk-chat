@@ -1,0 +1,38 @@
+.chat-box-bottom{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.chat-box-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chat-box-top{
+    overflow-y: scroll;
+    max-height: 70vh;
+}
+
+
+
+
+.chat-box-input{
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+
+}
+
+.chat-box-button{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
